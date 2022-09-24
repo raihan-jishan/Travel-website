@@ -1,0 +1,24 @@
+/*  login title */
+.LoginTitle{
+    text-align: center;
+    font-size: 2rem;
+    color: #222;
+}
+/*  login image */
+.Login img{
+    width: 20%;
+}
+/*  style span  */
+.Span{
+    font-weight: bold; 
+    font-size: 1.7rem;
+    color: #797979;
+}
+@media screen and (max-width:770px) {
+    .Login img{
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+     
+}

@@ -1,0 +1,12 @@
+.fa-down-long{
+    font-size: 2rem;
+    color: #2dbf65e3;
+    padding: 7px 5px;
+}
+.fa-down-long:hover{
+    background: rgba(0, 0, 0, 0.093);
+    padding: 7px 5px;
+    color: #2dbf64;
+    transition: 0.4s;
+    transform: translate(1.1);
+}

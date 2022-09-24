@@ -1,0 +1,50 @@
+:root {
+  --activeGreen: #2dbf64;
+  --fontPrimary: #002333;
+  --questionBG: #e4e8ee;
+  --successGreen: #00ff84; 
+  --bodyBackground: #f2f4f8; 
+  --smartYellow: #FFC916;
+  --smartBlue: #0070f3;
+  --purpule: #728FCE;
+}
+.dashBoard{
+   margin: 120px 60px;
+
+}
+.Buttons{
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   margin-top: -200px;
+}
+/*  buttons code */
+.In{
+   font-size: 1.5rem;
+   background: #00e056;
+   padding: 12px 40px;
+}
+.In:hover{
+   background: #0070f3;
+   border-top: 3px solid #e4e8ee;
+}
+/*  logOut */
+.Out{   
+   padding: 12px 40px;
+   background: #00a857;
+   font-size: 1.3rem;
+
+}
+.Out:hover{
+   color: #002333;
+   background: rgba(185, 0, 0, 0.63);
+}
+/*  responsibe */
+@media screen and (max-width:770px) {
+  
+   .Buttons{
+      margin-top: 20px;
+      flex-direction: column;
+   }
+     
+}
