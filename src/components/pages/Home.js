@@ -1,8 +1,9 @@
 import React from 'react';
 //  import Other componets from react 
 import Cards from '../Cards';
-import Footer from '../Footer';
+import Footer from  '../Footer/Footer'
 import HeroSection from '../HeroSection'
+import Product from './Product';
 import Services from './Services';
 
 const Home = () => {
@@ -11,7 +12,8 @@ const Home = () => {
         <HeroSection /> 
         <Cards />
         <Services /> 
-        <Footer /> 
+        <Product /> 
+        
     </div>
   )
 }

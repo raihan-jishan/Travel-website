@@ -1,5 +1,5 @@
 //  style
-import styles from './Service.module.css'
+import styles from '../../styles/Service.module.css';
 export default function Services() {
     return(
         <div>

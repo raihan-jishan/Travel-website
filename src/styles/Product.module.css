@@ -1,0 +1,63 @@
+/* <
+    modern css grid gallery from learning youtube 
+    date: 2- 10 -2022 
+    LWS bd 
+    /> */
+   /*  style */
+   .container {
+       display: grid;
+       grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+       grid-gap: 0px;
+       grid-auto-flow: dense;
+       margin: 10px;
+
+     
+     }
+     .container img {
+       width: 95%;
+       height: 90%;
+       object-fit: cover;
+        margin: 20px;
+        border-radius: 0.7rem;
+        transition: 0.4s;
+      }
+       .container img:hover{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+       }
+       /* .horizontal titel */
+       .horizontalTitle{
+       margin-left: 40px;
+       font-weight: 400;
+       }
+       /* highLight location  */
+       .location{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 500;
+       }
+     .horizontal {
+       grid-column: span 2;
+      
+     }
+     .vertical {
+       grid-row: span 2;
+     }
+     .big {
+       grid-column: span 2;
+       grid-row: span 2;
+ 
+     }
+     /* responsibe */
+  @media screen and (max-width: 770px) {
+        .container{
+          display: flex;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        }
+        .horizontalTitle{
+          text-align: center;
+          font-size: 1.3rem;
+        }
+        
+  }

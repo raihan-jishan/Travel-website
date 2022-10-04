@@ -26,6 +26,17 @@ font-size: 1.1rem;
   background: #2dbf64;
   padding: 9px 36px;
 }
+/*  mode for dark  & light theme  */
+.mode{
+  background: #3d3d3d;
+  padding: 6px 12px;
+  
+}
+/* mode hover */ 
+.mode:hover{
+  
+  border: 0.2px solid #0062d1;
+}
 /* login hover */
 .login:hover{
   background: #00d853;

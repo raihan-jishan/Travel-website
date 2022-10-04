@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import '../styles/Navbar.css';
+import '../../styles/Navbar.css'
 // module css 
-import '../styles/Button.css'
+import '../../styles/Button.css';
 // authentication bu Auth0 provider
 function Navbar() {
   // useState hook 
@@ -33,7 +33,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            goOn
+           LOGO
             <i className="fa-solid fa-austral-sign"/>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -56,13 +56,18 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/product'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Products
               </Link>
             </li>
+      {/*  dark mode */}
+        
+
+
+
 
             <li>
               <Link to='/login'>

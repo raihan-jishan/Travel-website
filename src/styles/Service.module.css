@@ -1,0 +1,65 @@
+.services{
+    text-align: center;
+  
+  }
+  .services h1{
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 2px double #2dbf64;;
+    font-size: 1.8rem;
+    padding-bottom: 10px ;
+    margin-top: 25px;
+    font-weight: bold;
+    border-radius: 0.6px;
+  }
+  .cen{
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+  }
+  .service{
+    display:inline-block;
+    width: calc(100%/3);
+    margin: 40px -2px;
+    padding: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 0.5s linear;
+  }
+  .service:active{
+    background:  #84858423;
+    border-radius:0.3rem;
+    color: #424242;
+    border-right: 2px solid #2dbf64;
+  
+  }
+  .service i{
+    color: #333;;
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+  .service h2{
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    font-weight:600;
+    margin: 0;
+  
+  }
+  .service p{
+    color: grey;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  @media  screen and (max-width: 800px) {
+    .service{
+        width: 50%;
+    }
+  }
+  
+  @media  screen and (max-width: 500px) {
+    .service{
+        width: 100%;
+    }
+  }
